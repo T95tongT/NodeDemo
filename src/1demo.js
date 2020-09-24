@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-24 14:15:02
- * @LastEditTime: 2020-09-24 14:24:06
+ * @LastEditTime: 2020-09-24 16:31:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \nodeJsDemo\src\1demo.js
@@ -19,7 +19,7 @@
 //web服务
 const http = require("http");
 const server = http.createServer((req, res)=>{
-    res.end("hello")
+    res.end("helloww")
 });
 server.listen(3000, "127.0.0.1", ()=>{
     console.log("服务启动成功")
